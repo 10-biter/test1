@@ -190,8 +190,11 @@ namespace testterr {
  */
     //% block
     export function giveScore(num:number): void {
-        music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.InBackground)
-        info.changeScoreBy(num)
+        if (num > 0) {
+            music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.InBackground)
+            info.changeScoreBy(num)
+        }    
+        
     }
 
 
