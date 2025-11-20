@@ -4,7 +4,7 @@
 > Open this page at [https://10-biter.github.io/test1/](https://10-biter.github.io/test1/)
 
 ## Use as Extension
-
+this is fun!
 This repository can be added as an **extension** in MakeCode.
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
